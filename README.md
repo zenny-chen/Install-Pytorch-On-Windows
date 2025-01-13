@@ -81,5 +81,8 @@ extern "C" {
 #endif
 ```
 
+<br />
+
+There is another convenient way to avoid this compiling error problem. Copy the **`stdbool.h`** appended in this repository to **`pytorch/third_party/XNNPACK/include/`**, **`pytorch/third_party/mimalloc/include/`**, and **`pytorch/torch/csrc/`**.
 
 
