@@ -85,4 +85,15 @@ extern "C" {
 
 There is another convenient way to avoid this compiling error problem. Copy the **`stdbool.h`** appended in this repository to **`pytorch/third_party/XNNPACK/include/`**, **`pytorch/third_party/mimalloc/include/`**, and **`pytorch/torch/csrc/`**.
 
+<br />
+
+# Install torchvision with Anaconda
+
+Here will describe how to install [torchvision](https://pytorch.org/vision/stable/index.html#torchvision) with Anaconda. For more information about models, refer to [Models and pre-trained weights](https://pytorch.org/vision/stable/models.html).
+
+```bash
+conda install libuv
+conda install pin-1
+conda install torchvision -c pytorch
+```
 
